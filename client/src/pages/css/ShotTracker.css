@@ -1,0 +1,35 @@
+.Shot-Tracker {
+    text-align: center;
+}
+  
+  
+.Shot-Tracker-header {
+    background-color: #88aaca;
+    min-height:100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    min-width: 98%;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.sample-text{
+    border: solid black 2px;
+    display: block;
+}
+
+.toggle-chart-button{
+    font-size: 50px;
+    width: 80px;
+    margin: 14vh;
+}
+
+.svg_icons {
+    transform: scale(1.8);
+  }
+
+  .css-n0h0jd-MuiButtonBase-root-MuiIconButton-root-MuiPickersToolbar-penIconButton{
+    display: none !important;
+  }

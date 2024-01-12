@@ -1,0 +1,14 @@
+.sample-text{
+    border: solid black 2px;
+    display: block;
+}
+
+.shot-display{
+    display:flex;
+    margin-top: 2%;
+}
+
+.shot-display-img{
+    background-image: url("../../../imgs/BasketballHalfCourt.png");
+    background-size: cover;
+}

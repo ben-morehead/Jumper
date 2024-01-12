@@ -1,0 +1,14 @@
+Below are the steps to integrate CanvasJS Chart / StockChart in your react app.
+1. Save canvasjs.react.js and canvasjs.min.js(canvasjs.stock.react.js and canvasjs.stock.min.js in case of StockChart) within source-folder of your React application ( src or src/assets or src/lib ).
+2. Import the library into your app.
+
+
+For Chart:
+import CanvasJSReact from './canvasjs.react';
+var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+
+For StockChart:
+import CanvasJSReact from './canvasjs.stock.react';
+var CanvasJSStockChart = CanvasJSReact.CanvasJSStockChart;
+
+Once it’s imported, you are ready to go. Now you can create Chart / StockChart, pass options & render them.

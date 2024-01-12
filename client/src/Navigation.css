@@ -1,0 +1,23 @@
+.Navigation-Base {
+    font-family: 'Tahoma';
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu-icon{
+    display: flex;
+}
+
+.link {
+    display: flex;
+}
+
+.link a{
+    text-decoration: none; 
+    color: white;
+    display: flex;
+}
+
+.site-title{
+    font-size: x-large;
+}
